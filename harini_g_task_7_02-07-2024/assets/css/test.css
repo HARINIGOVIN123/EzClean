@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #000;
+}
+.container-test{
+    color: #fff;
+}
+.monies{
+    padding-top: 50px;
+}
+.test{
+    font-size: 10px;
+    font-weight: 600;
+    word-spacing: 1px;
+    padding-top: 15px;
+    text-align: center;
+}
+.happy{
+    text-align: center;
+    font-size: 1.75em;
+    color: #fff;
+}
+.container-scott{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    margin-top: 30px;
+    gap: 10px;
+}
+.card-scott img{
+    width: 24%;
+    height: 10vh;
+    border-radius: 50%;
+}
+.card-scott{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.roger-scott{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.manger{
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.quote{
+    color: yellow;
+    font-size: 1.5em;
+}
+.card-roger{
+    padding: 10px;
+    background-color: rgb(46, 84, 182);
+    box-shadow: 1px 10px 0px -2px rgba(233,240,19,1);
+}
+.colon{
+    margin-top: 15px;
+    text-align: center;
+}
+.text{
+    padding-top: 15px;
+}
+@media screen and (min-width:768px){
+    .container-scott{
+        display: flex;
+        flex-direction: row;
+    }
+    .roger{
+        font-size: 1em;
+    }
+    .manger{
+        font-size: .75em;
+    }
+    .quote{
+        font-size: 1.95em;
+    }
+    .text{
+        padding-top: 20px;
+        font-size: 1.03em;
+    }
+}
+@media screen and (min-width:1024px){
+    .card-roger{
+        padding: 20px;
+    }
+    .test{
+        font-size: .75em;
+    }
+    .happy{
+        font-size: 2.45em;
+    }
+    .roger{
+        font-size: 1.55em;
+    }
+    .manger{
+        font-size: 1em;
+    }
+    .quote{
+        font-size: 1.95em;
+    }
+    .text{
+        padding-top: 20px;
+        font-size: 1.20em;
+    }
+}
+@media screen and (min-width:1200px){
+    .card-roger{
+        padding: 20px;
+    }
+    .test{
+        font-size: .95em;
+    }
+    .happy{
+        font-size: 2.95em;
+    }
+    .quote{
+        font-size: 2.95em;
+    }
+    .roger{
+        font-size: 1.95em;
+    }
+    .manger{
+        font-size: 1.5em;
+    }
+    .text{
+        font-size: 2em;
+    }
+}
+
+/* .card{
+    padding: 15px;
+    background-color: #396bcf;
+    border-radius: 6px;
+    box-shadow: 1px 10px 0px -2px rgba(233,240,19,1);
+}
+.card img{
+    border-radius: 100%;
+    width: 50px;
+}
+.roger-scott{ 
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+}
+.roger{
+    padding-top: 15px;
+}
+.manger{
+    padding-top: 15px;
+}
+.roger-scott a{
+    font-size: 1.75em;
+    font-weight: bolder;
+    color: #f6f605;
+    position: absolute;
+    bottom: 40%;
+    left: 55%;
+}
+.colon{
+    margin-top: 15px;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .container-scott{
+        display: flex;
+        flex-direction: row;
+    }
+    .happy{
+        margin-top: 10px;
+    }
+    .colon{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:900px){
+    .manger{
+        margin-top: 5px;
+    }
+    .text{
+        font-size: 1.35em;
+    }
+    .colon{
+        margin-top: 20px; 
+    }
+    .roger-scott a{
+        font-size: 2.75em;
+        font-weight: bolder;
+    }
+}
+@media screen and (min-width:1200px){
+    .roger{
+        font-size: 1.55em;
+        font-weight: bolder;
+    }
+    .manger{
+        font-size: 1em;
+        font-weight: lighter;
+    }
+    .roger-scott{
+        padding-left: 40px;
+    }
+    .card img{
+        margin-top: 40px;
+        border-radius: 100%;
+        width: 80px;
+    }
+    .colon{
+        margin-top: 20px;
+    }
+    .text{
+        font-size: 1.45em;
+        padding-bottom: 15px;
+    }
+    .roger-scott a{
+        font-size: 2.75em;
+        font-weight: bolder;
+    }
+} */

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzClean</title>
+    <!-- link in css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+    <div id="header">
+        <nav>
+            <div class="logo"><a href="#">EZ<span>CLEAN</span></a></div>
+            <ul class="nav-links">
+                <li><a href="home" class="home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-icon"><i class="bi bi-list"></i></div>
+            <div class="close-icon"><i class="bi bi-x"></i></div>
+        </nav>
+        <div class="header-text">
+            <h5 class="clean">Leave the house cleaning chores to us</h5>
+            <h3 class="ezclean">Let us do the dirty work, so you <br> don't have to.</h3>
+            <button class="learn">LEARN MORE</button>
+        </div>
+    </div> 
+    </header>
+    <!-- about section 2-->
+     <!-- appointment section -->
+    <section class="appointment-container">
+        <div class="appointment-wrapper">
+            <form id="appointmentForm" class="ez-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="ez-name ez-form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" class="ez-phone ez-form-control" placeholder="Phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="services">Select Services</label>
+                    <select id="services" class="ez-services ez-form-control" required>
+                        <option value="">Select Services</option>
+                        <option value="cleaning">Cleaning</option>
+                        <option value="laundry">Laundry</option>
+                        <option value="gardening">Gardening</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="cleaner">Select Cleaners</label>
+                    <select id="cleaner" class="ez-cleaner ez-form-control" required>
+                        <option value="">Select Cleaners</option>
+                        <option value="john-doe">John Doe</option>
+                        <option value="william-smith">William Smith</option>
+                        <option value="danny-green">Danny Green</option>
+                        <option value="jason-thompson">Jason Thompson</option>
+                    </select>
+                </div>
+                <div class="form-btn">
+                    <button type="submit" class="ez-btn">MAKE AN APPOINTMENT</button>
+                </div>
+            </form>
+        </div>
+    </section>
+     <!-- contact section -->
+    <section class="content-section">
+        <div class="ez-container">
+            <div class="ez-row">
+                <div class="ez-column-half ez-image-column" style="background-image:url('./assets/images/about.jpg');">
+                    <div class="ez-time-open-wrap">
+                        <div class="ez-desc">
+                            <h2>Business Hours</h2>
+                            <div class="ez-opening-hours">
+                                <h4>Opening Days:</h4>
+                                <p>
+                                    <span><strong>Monday – Friday:</strong> 9am to 20pm</span><br>
+                                    <span><strong>Saturday:</strong> 9am to 17pm</span>
+                                </p>
+                                <h4>Vacations:</h4>
+                                <p>
+                                    <span>All Sunday Days</span><br>
+                                    <span>All Official Holidays</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ez-desc ez-bg-secondary">
+                            <h3 class="ez-heading">For Emergency Cases</h3>
+                            <span class="ez-phone-number">(+01) 123 456 7890</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ez-column-half ez-content-column">
+                    <div class="ez-content">
+                        <span class="ez-subheading">Welcome to EZCLEAN</span>
+                        <h2 class="ez-sb">Let's make you fresher than ever</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                    <div class="ez-counter-section">
+                        <div class="counter">
+                            <div class="ez-number">45</div>
+                            <div class="ez-text">Years of <br>Experienced</div>
+                        </div>
+                        <div class="counter">
+                            <div class="ez-number">2342</div>
+                            <div class="ez-text">Happy <br>Customers</div>
+                        </div>
+                        <div class="counter">
+                            <div class="ez-number">30</div>
+                            <div class="ez-text">Building <br>Cleaned</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section 3  -->
+    <section class="we are work">
+        <div class="services">
+            <h4 class="service">SERVICES</h4>
+            <h2 class="works">How We Works</h2>
+            <div class="service-container">
+                <div class="service-item">
+                   <div class="img"><img src="./assets/images/office.png" alt="Office Cleaning Icon"></div>
+                   <div class="more"> 
+                        <h3>Office Cleaning</h3>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <button class="btn">READ MORE</button>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="img"><img src="./assets/images/swiming-pool.png" alt="Pool Cleaning Icon"></div>
+                    <div class="more">
+                        <h3>Pool Cleaning</h3>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <button class="btn">READ MORE</button>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="img"><img src="./assets/images/carpet.png" alt="Carpet Cleaning Icon"></div>
+                    <div class="more">
+                        <h3>Carpet Cleaning</h3>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <button class="btn">READ MORE</button>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="img"><img src="./assets/images/cook.png" alt="Kitchen Cleaning Icon"></div>
+                    <div class="more">
+                        <h3>Kitchen Cleaning</h3>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <button class="btn">READ MORE</button>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="img"><img src="./assets/images/garden.png" alt="Garden Cleaning Icon"></div>
+                    <div class="more">  
+                        <h3>Garden Cleaning</h3>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <button class="btn">READ MORE</button>
+                    </div> 
+                </div>
+                <div class="service-item">
+                    <div class="img"><img src="./assets/images/window.png" alt="Window Cleaning Icon"></div>
+                    <div class="more">
+                        <h3>Window Cleaning</h3>
+                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                         <button class="btn">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team&staff section 4 -->
+    <section>
+        <div class="staff-whole-container">
+            <div class="container-staff">
+                <div class="staff">
+                    <h5 class="team">TEAM & STAFF</h5>
+                    <h2 class="our-team">Our Team</h2>
+                    <p class="small">A small river named Duden flows by their place and supplies it with the necessadry regelialia.It is a paradisematic country</p>
+                    <button class="btn1">VIEW ALL STAFF</button>
+                </div>
+            </div>
+            <div class="container-office">
+                <div class="card-img">
+                    <img class="Avatar" src="./assets/images/staff-1.jpg" alt="Avatar">
+                    <div class="cleaner">
+                        <h4>Lloyd Wilson</h4> 
+                        <p class="off">OFFICE CLEANER</p> 
+                        <div class="icons">
+                          <a href="#"><i class="bi bi-twitter"></i></a> 
+                          <a href="#"><i class="bi bi-facebook"></i></a>
+                          <a href="#"><i class="bi bi-google"></i></a>
+                          <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-img">
+                    <img class="Avatar" src="./assets/images/staff-2.jpg" alt="Avatar">
+                    <div class="cleaner">
+                        <h4>Lloyd Wilson</h4> 
+                        <p class="off">OFFICE CLEANER</p> 
+                        <div class="icons">
+                          <a href="#"><i class="bi bi-twitter"></i></a> 
+                          <a href="#"><i class="bi bi-facebook"></i></a>
+                          <a href="#"><i class="bi bi-google"></i></a>
+                          <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-img">
+                    <img class="Avatar" src="./assets/images/staff-3.jpg " alt="Avatar">
+                    <div class="cleaner">
+                        <h4>Lloyd Wilson</h4> 
+                        <p class="off">OFFICE CLEANER</p> 
+                        <div class="icons">
+                          <a href="#"><i class="bi bi-twitter"></i></a> 
+                          <a href="#"><i class="bi bi-facebook"></i></a>
+                          <a href="#"><i class="bi bi-google"></i></a>
+                          <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIES section 5 -->
+    <section>
+        <div class="container-test">
+            <div class="monies">
+                <h5 class="test">TESTIMONIES</h5>
+                <h2 class="happy">Happy Customer</h2>
+            </div>
+            <div class="container-scott">
+                <div class="card-roger">
+                    <div class="card-scott">
+                        <img src="./assets/images/person_1.jpg" alt="">
+                        <div class="roger-scott">
+                            <h3 class="roger">Roger Scott</h3>
+                            <p class="manger">Marketing Manger</p>
+                        </div>
+                        <div class="quote"><i class="fa-sharp fa-solid fa-quote-right"></i></div> 
+                    </div>
+                    <p class="text">Far far away,behind the word mountains,far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+                </div>
+                <div class="card-roger">
+                    <div class="card-scott">
+                        <img src="./assets/images/person_2.jpg" alt="">
+                        <div class="roger-scott">
+                            <h3 class="roger">Roger Scott</h3>
+                            <p class="manger">Marketing Manger</p>    
+                        </div>
+                        <div class="quote"><i class="fa-sharp fa-solid fa-quote-right"></i></div>
+                    </div>
+                    <p class="text">Far far away,behind the word mountains,far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+                </div>
+                <div class="card-roger">
+                    <div class="card-scott">
+                        <img src="./assets/images/person_3.jpg" alt="">
+                        <div class="roger-scott">
+                            <h3 class="roger">Roger Scott</h3>
+                            <p class="manger">Marketing Manger</p>
+                        </div>
+                        <div class="quote"><i class="fa-sharp fa-solid fa-quote-right"></i></div>
+                    </div>
+                    <p class="text">Far far away,behind the word mountains,far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+                </div>
+            </div>
+            <div class="colon">
+                <a href="#"><i class="fa-solid fa-circle" style="color: yellow;"></i></a>
+                <a href="#"><i class="fa-solid fa-circle" style="color: #fff;"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- our project section 6-->
+    <section class="project-gallery">
+        <h2>Our Project</h2>
+        <h3>We have done many latest cleaning project</h3>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="./assets/images/work-1.jpg" alt="Cleaning Project 1"></div>
+            <div class="gallery-item"><img src="./assets/images/work-2.jpg" alt="Cleaning Project 2"></div>
+            <div class="gallery-item"><img src="./assets/images/work-3.jpg" alt="Cleaning Project 3"></div>
+            <div class="gallery-item"><img src="./assets/images/work-4.jpg" alt="Cleaning Project 4"></div>
+            <div class="gallery-item"><img src="./assets/images/work-5.jpg" alt="Cleaning Project 5"></div>
+            <div class="gallery-item"><img src="./assets/images/work-6.jpg" alt="Cleaning Project 6"></div>
+            <div class="gallery-item"><img src="./assets/images/work-7.jpg" alt="Cleaning Project 7"></div>
+            <div class="gallery-item"><img src="./assets/images/work-8.jpg" alt="Cleaning Project 8"></div>
+        </div>
+    </section>
+    <!-- news & blog section 7 -->
+    <section class="news-section">
+        <div class="container-blogs">
+            <h5 class="blog">NEWS & BLOG</h5>
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-items">
+                <div class="news-item">
+                    <div class="images"> 
+                        <img src="./assets/images/image_1.jpg" alt="Cleaning Tips 1">
+                    </div>
+                    <div class="card-posted">
+                        <div class="author-info">
+                            <img src="./assets/images/person_1.jpg" alt="Author 1">
+                            <div class="john">
+                                <p class="john-doe">Posted by John Doe</p>
+                                <h3 class="march">04 March 2020</h3>
+                            </div>
+                        </div>
+                        <h4 class="tips">10 Tips to clean your window</h4>
+                        <p class="far-away">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="images"> 
+                        <img src="./assets/images/image_2.jpg" alt="Cleaning Tips 2">
+                    </div>
+                    <div class="card-posted">
+                        <div class="author-info">
+                            <img src="./assets/images/person_2.jpg" alt="Author 2">
+                            <div class="john">
+                                <p class="john-doe">Posted by John Doe</p>
+                                <h3 class="march">04 March 2020</h3>
+                            </div>
+                        </div>
+                        <h4 class="tips">10 Tips to clean your window</h4>
+                        <p class="far-away">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="images">
+                        <img src="./assets/images/image_3.jpg" alt="Cleaning Tips 3">
+                    </div>
+                    <div class="card-posted">
+                        <div class="author-info">
+                            <img src="./assets/images/person_3.jpg" alt="Author 3">
+                            <div class="john">
+                                <p class="john-doe">Posted by John Doe</p>
+                                <h3 class="march">04 March 2020</h3>
+                            </div>
+                        </div>
+                        <h4 class="tips">10 Tips to clean your window</h4>
+                        <p class="far-away">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section8 -->
+    <section class="pricing-plans">
+        <h5 class="price">PRICE & PLANS</h5>
+        <h2>Choose Your Perfect Plans</h2>
+        <div class="plans">
+            <div class="plan">
+                <div class="plan-header">
+                    <img src="./assets/images/icon_1.png" alt="Starter">
+                    <h3>STARTER</h3>
+                    <p class="price">$49</p>
+                </div>
+                <ul class="features">
+                    <li><i class="bi bi-check-lg"></i> Bedrooms cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Vacuuming</li>
+                    <li><i class="bi bi-check-lg"></i> Bathroom cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Mirrow cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Livingroom cleaning</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="plan highlighted">
+                <div class="plan-header">
+                    <img src="./assets/images/icon_2.png" alt="Standard">
+                    <h3>STANDARD</h3>
+                    <p class="price">$79</p>
+                </div>
+                <ul class="features checked">
+                    <li><i class="bi bi-check-lg"></i> Bedrooms cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Vacuuming</li>
+                    <li><i class="bi bi-check-lg"></i> Bathroom cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Mirrow cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Livingroom cleaning</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="plan">
+                <div class="plan-header">
+                    <img src="./assets/images/icon_3.png" alt="Premium">
+                    <h3>PREMIUM</h3>
+                    <p class="price">$109</p>
+                </div>
+                <ul class="features">
+                    <li><i class="bi bi-check-lg"></i> Bedrooms cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Vacuuming</li>
+                    <li><i class="bi bi-check-lg"></i> Bathroom cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Mirrow cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Livingroom cleaning</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="plan">
+                <div class="plan-header">
+                    <img src="./assets/images/icon_4.png" alt="Platinum">
+                    <h3>PLATINUM</h3>
+                    <p class="price">$159</p>
+                </div>
+                <ul class="features">
+                    <li><i class="bi bi-check-lg"></i> Bedrooms cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Vacuuming</li>
+                    <li><i class="bi bi-check-lg"></i> Bathroom cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Mirrow cleaning</li>
+                    <li><i class="bi bi-check-lg"></i> Livingroom cleaning</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </section>
+     <!-- contact section 9 -->
+     <section class="contact-section">
+            <div class="contact-list">
+                <div class="address">
+                    <div class="contact-icon-div">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-text">
+                        <p><span>Address:</span> 198 West 21th Street,</p>
+                        <p>Suite 721 New York NY 10016</p>
+                    </div>
+                </div>
+                <div class="phone">
+                    <div class="contact-icon-div">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <p><span>Phone:</span> <a href="#">+ 1234 5567 89</a></p>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="contact-icon-div">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <p><span>Email:</span><a href="#"> info@yoursite.com</a></p>
+                    </div>
+                </div>
+                <div class="website">
+                    <div class="contact-icon-div">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <div class="contact-text">
+                        <p><span>Website:</span><a href="#"> yoursite.com</a></p>
+                    </div>
+                </div>
+            </div>
+        <!-- contact form -->
+        <div class="container-contacts">
+            <div class="contact-form">
+                <h2 class="us">Contact Us</h2>
+                <p class="msg">Your message was sent, thank you!</p>
+                <form>
+                    <div class="forms-name">
+                        <div class="forms-groups">
+                            <label for="full-name">FULL NAME</label>
+                            <input type="text" id="full-name" name="name" placeholder="Name">
+                        </div>
+                        <div class="forms-groups">
+                            <label for="email">EMAIL ADDRESS</label> 
+                            <input type="email" id="email" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="forms-groups" id="form">
+                        <label for="subject">SUBJECT</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="forms-groups" id="form">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" name="message" placeholder="Message" rows="4" cols="27">Message</textarea>
+                    </div>
+                    <button type="submit" class="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+           
+            <div class="contact-image">
+                <img src="./assets/images/about.jpg" alt="Cleaner">
+            </div>
+        </div>
+        
+    </section>
+    <!-- footer section 10-->
+    <footer>
+        <footer class="footer">
+            <div class="footer-column">
+                <h2>EzClean</h2>
+                <div class="lined"></div>
+                <div class="smalled">
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
+                <div class="social-icons">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h2>Latest News</h2>
+                <div class="lined"></div>
+                <div class="newed-items">
+                    <img src="./assets/images/image_1.jpg" alt="news">
+                    <p class="even">Even the all-powerful Pointing has no control about</p>
+                </div>
+                <small class="admin">Mar. 04, 2020 Admin 19</small>
+                <div class="newed-items">
+                    <img src="./assets/images/image_2.jpg" alt="news">
+                    <p class="even">Even the all-powerful Pointing has no control about</p>
+                </div>
+                <small class="admin">Mar. 04, 2020 Admin 19</small>
+            </div>
+            <div class="footer-column">
+                <h2>Quick Links</h2>
+                <div class="lined"></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Have a Questions?</h2>
+                <div class="lined"></div>
+                <div class="mountain">
+                    <div class="domain">
+                        <i class="fas fa-map-marker-alt  fake"></i>
+                        <p> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+                    </div>
+                    <div class="domain">
+                        <i class="fas fa-phone fake"></i>
+                        <p> +2 392 3929 210</p>
+                    </div>
+                    <div class="domain">
+                        <i class="fas fa-envelope fake"></i>
+                        <p> info@yourdomain.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <p class="copy">copyright C All right reserved</p>
+    </footer>
+    <!-- javascrpit link in html -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
